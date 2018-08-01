@@ -1,10 +1,10 @@
-/* eslint-disable react/jsx-one-expression-per-line,jsx-a11y/label-has-for */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/click-events-have-key-events,react/jsx-one-expression-per-line */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { Component } from 'react';
 import autoBind from 'react-autobind';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import InputForm from './InputForm';
 
 class App extends Component {
   constructor(props) {
@@ -52,58 +52,14 @@ class App extends Component {
       <div className="App">
         <div className="main-table">
           <div className="col-4 text-left">
-            <h3 className="header-form">
-Клиенты
-            </h3>
+            <h3 className="header-form">Клиенты</h3>
             <span className="row">
               <i className="fas fa-plus-circle mr-2 ml-2 add-icon" />
-              <p className="add">
-Добавить клиента
-              </p>
+              <p className="add">Добавить клиента</p>
             </span>
           </div>
-          <div className="modal-tab">
-            <div className="row col-12">
-              <div className="col-7">
-                <div className="form-group">
-                  <label className="label">Имя</label>
-                  <input
-                    className="form-control border__input"
-                    type="text"
-                    placeholder="ex. Mr. Anderson"
-                  />
-                </div>
-              </div>
-              <div className="col-5">
-                <div className="form-group">
-                  <label className="label">Телефон</label>
-                  <input
-                    className="form-control border__input"
-                    type="text"
-                    placeholder="ex. 8 999 888 77 66"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="row col-12">
-              <div className="col-7">
-                <div className="form-group">
-                  <label className="label">E-Mail</label>
-                  <input
-                    className="form-control border__input"
-                    type="text"
-                    placeholder="ex. example@gmail.com"
-                  />
-                </div>
-              </div>
-              <div className="col-5">
-                <button type="button" className="btn-save">
-                  Сохранить
-                </button>
-              </div>
-            </div>
-          </div>
           <div className="pl-3 pr-3">
+            {/*<InputForm />*/}
             <hr />
             <table className="table table-borderless col-12 ">
               <thead>
