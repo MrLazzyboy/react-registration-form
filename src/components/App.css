@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  font-family: Roboto;
+}
+
+table {
+  padding: auto;
+}
+
+thead {
+  border-bottom: groove black;
+}
+
+tr {
+  border-bottom-style: none;
+}
+
+.main-table {
+  background-color: beige;
+  width: 1000px;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
