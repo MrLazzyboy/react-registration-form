@@ -8,18 +8,81 @@ table {
 }
 
 thead {
-  border-bottom: groove black;
+  border-bottom: solid #bd9ca4;
 }
 
 tr {
   border-bottom-style: none;
 }
 
+
+
 .main-table {
   background-color: beige;
   width: 1000px;
-  margin-top: 20%;
-  margin-left: auto;
-  margin-right: auto;
+}
+.header-form {
+  font-size: 21px;
+  font-weight: 600;
+  font-stretch: extra-condensed;
+  padding-top: 11px;
 }
 
+.add-icon::before{
+  font-size: 22px;
+  display: block;
+  padding-top: 4px;
+  padding-left: 6px;
+}
+
+.add {
+  padding-left: 2px;
+  font-size: 13px;
+  display: block;
+  padding-top: 4px;
+  font-stretch: extra-condensed;
+  font-weight: normal;
+}
+
+.label{
+  text-align: left;
+  display: block;
+  font-size: 11px;
+}
+
+.form-group{
+  margin-bottom: 8px !important;
+}
+
+.border__input{
+  border-radius: 15px !important;
+  height: 35px !important;
+  width: 100% !important;
+}
+
+.btn-save {
+  text-align: left;
+  display: block;
+  background-color: #c32630;
+  margin-top: 24px;
+  padding: 7px 19px;
+  color: white;
+  border-radius: 18px;
+  margin-left: 29px;
+  font-size: 14px;
+  border: none;
+  font-weight: bolder;
+  font-stretch: condensed;
+}
+
+.th-own {
+  font-weight: bolder;
+  color: #000;
+  opacity: 0.3;
+  font-size: 10px !important;
+  font-stretch: extra-condensed;
+}
+
+.table-font {
+  font-size: 12px !important;
+}
